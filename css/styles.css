@@ -271,6 +271,7 @@ Navbar
 	.nav-links {
 		height: auto;
 		display: flex;
+		-moz-column-gap: 0.7rem;
 		column-gap: 0.7rem;
 	}
 
@@ -292,10 +293,12 @@ Navbar
 
 	.nav-icons {
 		display: flex;
+		-moz-column-gap: 0.7rem;
 		column-gap: 0.7rem;
 	}
 
 	.nav-icon {
+		-moz-column-gap: 0.7rem;
 		column-gap: 0.7rem;
 		color: var(--clr-primary-5);
 		transition: var(--transition);
@@ -502,6 +505,7 @@ Featured Tours
 
 .tour-img {
 	height: 15rem;
+	-o-object-fit: cover;
 	object-fit: cover;
 }
 
@@ -563,6 +567,7 @@ Featured Tours
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-between;
+		-moz-column-gap: 2rem;
 		column-gap: 2rem;
 		row-gap: 2rem;
 	}
@@ -618,6 +623,22 @@ Contact
 	border: transparent;
 }
 
+.form-control::-webkit-input-placeholder {
+	color: inherit;
+}
+
+.form-control::-moz-placeholder {
+	color: inherit;
+}
+
+.form-control:-ms-input-placeholder {
+	color: inherit;
+}
+
+.form-control::-ms-input-placeholder {
+	color: inherit;
+}
+
 .form-control::placeholder {
 	color: inherit;
 }
@@ -641,6 +662,7 @@ Contact
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-between;
+		-moz-column-gap: 2rem;
 		column-gap: 2rem;
 	}
 	.contact-form {
@@ -673,6 +695,7 @@ Gallery
 
 .gallery-img {
 	height: 17rem;
+	-o-object-fit: cover;
 	object-fit: cover;
 	transition: var(--transition);
 }
@@ -720,6 +743,7 @@ Footer
 	justify-content: center;
 	margin-bottom: 1.5rem;
 	flex-wrap: wrap;
+	-moz-column-gap: 1rem;
 	column-gap: 1rem;
 }
 
@@ -737,6 +761,7 @@ Footer
 }
 
 .footer-icons {
+	-moz-column-gap: 2rem;
 	column-gap: 2rem;
 }
 
